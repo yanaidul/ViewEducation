@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>eLEARNING - eLearning HTML Template</title>
+    <title>VIEW Education – Partner to bright future</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <meta content="" name="keywords" />
     <meta content="" name="description" />
@@ -50,9 +50,21 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <div class="navbar-nav me-auto p-4 p-lg-0">
-          <a href="index.html" class="nav-item nav-link active">Home</a>
-          <a href="#!" class="nav-item nav-link">PROGRAMS</a>
-          <a href="gallery.html" class="nav-item nav-link">GALLERY</a>
+          <div class="nav-item dropdown">
+            <a href="index.html" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Home</a>
+            <div class="dropdown-menu fade-down m-0">
+              <a href="visimisi.html" class="dropdown-item">Visi & Misi</a>
+            </div>
+          </div>
+          <div class="nav-item dropdown">
+            <a href="programs.html" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">PROGRAMS</a>
+            <div class="dropdown-menu fade-down m-0">
+              <a href="studyabroad.html" class="dropdown-item">Study Abroad</a>
+              <a href="kursus.html" class="dropdown-item">Kursus Bahasa Inggris</a>
+              <a href="manajemen.html" class="dropdown-item">Manajemen Proyek Beasiswa</a>
+            </div>
+          </div>
+          <a href="gallery.html" class="nav-item nav-link active">GALLERY</a>
           <a href="contact.html" class="nav-item nav-link">CONTACT US</a>
         </div>
         <div class="d-grid gap-4 d-md-flex justify-content-md-end">
@@ -78,21 +90,21 @@
     <!-- Header End -->
 
     <!-- Carousel wrapper -->
-    <div id="carouselExampleControlsNoTouching" class="carousel carousel-dark slide" data-bs-touch="false">
+    <div id="carouselExampleControlsNoTouching" class="carousel carousel-dark slide" data-bs-ride="carousel" data-bs-touch="false">
       <div class="carousel-inner">
-        <div class="carousel-item active">
+        <div class="carousel-item active" data-bs-interval="4000">
           <img src="img/cat-2.jpg" class="d-block w-100" alt="..." />
         </div>
-        <div class="carousel-item">
+        <div class="carousel-item" data-bs-interval="4000">
           <img src="img/cat-3.jpg" class="d-block w-100" alt="..." />
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
       </button>
       <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </button>
     </div>
@@ -105,7 +117,7 @@
           <div class="col-lg-3 col-md-6">
             <h4 class="text-yellow mb-3">Quick Link</h4>
             <a style="color: #ffc02e" class="btn btn-link" href="index.html">Home</a>
-            <a style="color: #ffc02e" class="btn btn-link" href="">Programs</a>
+            <a style="color: #ffc02e" class="btn btn-link" href="programs.html">Programs</a>
             <a style="color: #ffc02e" class="btn btn-link" href="gallery.html">Gallery</a>
             <a style="color: #ffc02e" class="btn btn-link" href="contact.html">Contact Us</a>
           </div>

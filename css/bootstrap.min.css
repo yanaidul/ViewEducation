@@ -5671,11 +5671,11 @@ fieldset:disabled .btn {
   content: "";
 }
 .link-primary {
-  color: #06bbcc;
+  color: #9854cb;
 }
 .link-primary:hover,
 .link-primary:focus {
-  color: #38c9d6;
+  color: #ffc02e;
 }
 .link-secondary {
   color: #6c757d;
