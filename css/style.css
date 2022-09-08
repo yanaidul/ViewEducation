@@ -422,3 +422,15 @@
   padding-right: 0;
   border-right: none;
 }
+
+.carousel-image {
+  height: 1500px;
+  width: 1500px;
+  overflow: hidden;
+}
+
+.course-image {
+  height: 300px;
+  width: 500px;
+  overflow: hidden;
+}

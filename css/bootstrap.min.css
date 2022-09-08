@@ -196,11 +196,11 @@ sup {
   top: -0.5em;
 }
 a {
-  color: #06bbcc;
+  color: #9854cb;
   text-decoration: none;
 }
 a:hover {
-  color: #0596a3;
+  color: #9854cb;
 }
 a:not([href]):not([class]),
 a:not([href]):not([class]):hover {
@@ -446,7 +446,7 @@ progress {
 }
 .display-5 {
   font-size: calc(1.425rem + 2.1vw);
-  font-weight: 800;
+  font-weight: 1;
   line-height: 1.2;
 }
 @media (min-width: 1200px) {
@@ -3397,7 +3397,7 @@ fieldset:disabled .btn {
 .dropdown-item:active {
   color: #fff;
   text-decoration: none;
-  background-color: #06bbcc;
+  background-color: #9854cb;
 }
 .dropdown-item.disabled,
 .dropdown-item:disabled {
@@ -3437,7 +3437,7 @@ fieldset:disabled .btn {
 .dropdown-menu-dark .dropdown-item.active,
 .dropdown-menu-dark .dropdown-item:active {
   color: #fff;
-  background-color: #06bbcc;
+  background-color: #9854cb;
 }
 .dropdown-menu-dark .dropdown-item.disabled,
 .dropdown-menu-dark .dropdown-item:disabled {
